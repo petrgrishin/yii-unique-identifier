@@ -1,0 +1,29 @@
+{
+    "name": "petrgrishin/yii-unique-identifier",
+    "description": "Helper for generate unique identifier",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "yiisoft/yii": "*"
+    },
+    "require-dev": {
+        "league/phpunit-coverage-listener": "~1.0"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/petrgrishin/yii-unique-identifier.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Petr Grishin",
+            "email": "petr.grishin@grishini.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PetrGrishin\\UniqueIdentifier\\": "src/"
+        }
+    }
+}
