@@ -21,8 +21,8 @@ class UniqueIdentifier {
         return get_called_class();
     }
 
-    public static function create() {
-        return new static();
+    public static function create($prefix = null) {
+        return new static($prefix);
     }
 
     public function __construct($prefix = null) {
