@@ -49,7 +49,7 @@ class UniqueIdentifier {
     }
 
     protected function createIdentifier($prefix = null) {
-        return sprintf('%s%x', $prefix ? $prefix . '_' : null, microtime());
+        return sprintf('%s%x', $prefix ? $prefix . '_' : null, microtime(true));
     }
 
     protected function createIteratorSession() {
